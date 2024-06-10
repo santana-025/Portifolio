@@ -1,0 +1,14 @@
+Laranja:
+#e36d6c
+
+Azul:
+#2a3b42
+
+amarelo:
+#f7cfb1
+
+vermelho:
+#af233f
+
+cinza:
+#9fb2ac
