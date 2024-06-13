@@ -1,0 +1,26 @@
+.label {
+    color: #ffffff;
+}
+
+#conteinerInterruptor {
+    display: flex;
+    margin: 15px 5px 0px 8px;
+}
+
+.trilha {
+    width: 45px;
+    height: 20px;
+    background-color: transparent;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+}
+
+.bolinha {
+    width: 22px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: scale(0.9);
+}

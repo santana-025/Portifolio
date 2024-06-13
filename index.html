@@ -9,12 +9,13 @@
     <title>Jorge Santana Fullstack</title>
     <link rel="stylesheet" href="/Style/menu.css">
     <link rel="stylesheet" href="/Style/header.css">
+    <link rel="stylesheet" href="/Style/interruptor.css">
 </head>
 
 <body>
-    <header id="header"> <!-- Header -->
+    <header>
 
-        <div class="conteiner"> <!-- Conteiner -->
+        <div id="header"> <!-- Conteiner -->
 
             <div class="flex"> <!-- flex -->
 
@@ -22,7 +23,7 @@
                     <a href="#"><img id="Logo" src="/img/LetraBranca.png" alt="tema"></a>
                 </div>
 
-                <nav id="menu">
+                <nav class="flex" id="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Sobre</a></li>
@@ -31,16 +32,23 @@
                     </ul>
                 </nav>
 
-                <div>
-                    <a href="#"><img id="lingua" src="/icon/terra.png" alt="terra"></a>
+                <div id="conteinerInterruptor">
+                    <div id="interruptorTema">
+                        <label class="label" for="tema">Tema</label>
+                        <div id="tema" class="trilha">
+                            <div class="bolinha"></div>
+                        </div>
+                    </div>
+                    <div id="interruptorLang">
+                        <label class="label" for="lang">Lang</label>
+                        <div id="lang" class="trilha">
+                            <div class="bolinha"></div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div> <!-- flex -->
-
-            <div>
-                <p id="h1" class="texth1"> </p>
-                <h2 id="h2" class="texth1"> </h2>
-            </div>
 
         </div><!-- Conteiner -->
 

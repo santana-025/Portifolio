@@ -8,18 +8,15 @@ html {
     /* Para Fazer a barra de rolagem */
 }
 
-.conteiner {
-    max-width: 1280px;
-    margin: auto;
-}
-
-
 #header {
+    border: 1px solid white;
     height: 100vh;
-    background-image: url("/img/art\ paint25.avif");
+    background-image: url(/human-hand-typing-computer-keyboard-night-generated-by-ai.jpg);
     background-size: cover;
+    /* Ajusta o tamanho da imagem para cobrir todo o cabeçalho */
     background-position: center;
-    background-repeat: no-repeat;
+    /* Centraliza a imagem */
+
 }
 
 .flex {
@@ -28,19 +25,9 @@ html {
     text-align: center;
 }
 
-#tema,
-#lingua {
-    max-width: 40px;
-    max-height: 40px;
-    margin: 20px;
-}
-
-.texth1 {
-    text-align: center;
-    margin: 30px;
-}
-
-#h1 {
-    font-family: monospace;
-    font-size: 18px;
+#Logo {
+    width: 150px;
+    height: auto;
+    position: relative;
+    bottom: 6px;
 }
